@@ -1,6 +1,14 @@
-[
-    {
-        "title":"Welcome to Note Taker bby",
-        "text":"feel free to add notes!"
-    }
-]
+{
+    "notes": [
+      {
+        "title": "Welcome to Note Taker bby",
+        "text": "feel free to add some notes",
+        "id": "0"
+      },
+      {
+        "title": "Deleting Notes",
+        "text": "go ahead delete",
+        "id": "1"
+      }
+    ]
+  }
