@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const {notes} = require('../../db/db');
-const {newNote} = require('../../lib/noteFunctions');
+const {newNote} = require('../../lib/noteFunctions.js');
 
 router.get('/notes', (req, res) => {
     let saved = notes;
