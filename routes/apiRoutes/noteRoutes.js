@@ -13,8 +13,8 @@ router.post('/notes', (req, res) => {
     res.json(note);
 })
 router.delete('/notes', (req, res) =>{
-    req.body.id = notes.length.toString();
-    let note = deleteNote(notes, req.body)
+
+    let note = deleteNote(notes, req.params.id)
     res.json(note)
 })
 
